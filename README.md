@@ -1,14 +1,14 @@
-# OTAX BAILEYS
+# NIXCAL BAILEYS
 
 <p align="center">
-  <img src="https://files.catbox.moe/dgnw8k.jpg" alt="Thumbnail" />
+  <img src="https://files.catbox.moe/zclrvw.jpg" alt="Thumbnail" />
 </p>
 
-OTAX Baileys is an open-source library designed to help developers build automation solutions and integrations with WhatsApp efficiently and directly. Using websocket technology without the need for a browser, this library supports a wide range of features such as message management, chat handling, group administration, as well as interactive messages and action buttons for a more dynamic user experience.
+Nixcal Baileys is an open-source library designed to help developers build automation solutions and integrations with WhatsApp efficiently and directly. Using websocket technology without the need for a browser, this library supports a wide range of features such as message management, chat handling, group administration, as well as interactive messages and action buttons for a more dynamic user experience.
 
-Actively developed and maintained, OTAX Baileys continuously receives updates to enhance stability and performance. One of the main focuses is to improve the pairing and authentication processes to be more stable and secure. Pairing features can be customized with your own codes, making the process more reliable and less prone to interruptions.
+Actively developed and maintained, Nixcal Baileys continuously receives updates to enhance stability and performance. One of the main focuses is to improve the pairing and authentication processes to be more stable and secure. Pairing features can be customized with your own codes, making the process more reliable and less prone to interruptions.
 
-This library is highly suitable for building business bots, chat automation systems, customer service solutions, and various other communication automation applications that require high stability and comprehensive features. With a lightweight and modular design, OTAX Baileys is easy to integrate into different systems and platforms.
+This library is highly suitable for building business bots, chat automation systems, customer service solutions, and various other communication automation applications that require high stability and comprehensive features. With a lightweight and modular design, Nixcal Baileys is easy to integrate into different systems and platforms.
 
 ---
 
@@ -107,7 +107,7 @@ await sock.sendMessage(jid, {
     eventMessage: { 
         isCanceled: false, 
         name: "Hello World", 
-        description: "OTAX Baileys", 
+        description: "Nixcal Baileys", 
         location: { 
             degreesLatitude: 0, 
             degreesLongitude: 0, 
@@ -150,7 +150,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "OTAX Baileys",
+        footer: "Nixcal Baileys",
         buttons: [
             {
                 name: "cta_copy",
@@ -173,27 +173,27 @@ await sock.sendMessage(jid, {
     interactiveMessage: {      
         header: "Hello World",
         title: "Hello World",      
-        footer: "OTAX Baileys",      
+        footer: "Nixcal Baileys",      
         image: { url: "https://example.com/image.jpg" },      
         nativeFlowMessage: {        
             messageParamsJson: JSON.stringify({          
                 limited_time_offer: {            
                     text: "idk hummmm?",            
-                    url: "https://t.me/otaxbaileys",            
-                    copy_code: "otaxbaileys",            
+                    url: "https://t.me/itsnixcal",            
+                    copy_code: "nixcalbaileys",            
                     expiration_time: Date.now() * 999          
                 },          
                 bottom_sheet: {            
                     in_thread_buttons_limit: 2,            
                     divider_indices: [1, 2, 3, 4, 5, 999],            
-                    list_title: "OTAX Baileys",            
-                    button_title: "OTAX Baileys"          
+                    list_title: "Nixcal Baileys",            
+                    button_title: "Nixcal Baileys"          
                 },          
                 tap_target_configuration: {            
-                    title: " OTAX ",            
-                    description: "OTAX Baileys",            
-                    canonical_url: "https://t.me/otaxbaileys",            
-                    domain: "otax.example.com",            
+                    title: " Nixcal ",            
+                    description: "Nixcal Baileys",            
+                    canonical_url: "https://t.me/Nixcalbaileys",            
+                    domain: "Nixcal.example.com",            
                     button_index: 0          
                 }        
             }),        
@@ -220,7 +220,7 @@ await sock.sendMessage(jid, {
                                 highlight_label: "label",                  
                                 rows: [                    
                                     {                      
-                                        title: "OTAX Baileys",                      
+                                        title: "Nixcal Baileys",                      
                                         description: "love you",                      
                                         id: "row_2"                    
                                     }                  
@@ -252,7 +252,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "OTAX Baileys",
+        footer: "Nixcal Baileys",
         image: { url: "https://example.com/image.jpg" },
         buttons: [
             {
@@ -305,10 +305,10 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "OTAX Baileys",
+        footer: "Nixcal Baileys",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "otaxbaileys.pdf",
+        fileName: "baileys.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         contextInfo: {
             mentionedJid: [jid],
@@ -316,12 +316,12 @@ await sock.sendMessage(jid, {
             isForwarded: false
         },
         externalAdReply: {
-            title: "OTAX Bot",
-            body: "OTAX team",
+            title: "Nixcal Bot",
+            body: "Nixcal team",
             mediaType: 3,
             thumbnailUrl: "https://example.com/image.jpg",
-            mediaUrl: " OTAX ",
-            sourceUrl: "https://t.me/otaxbaileys",
+            mediaUrl: " Nixcal ",
+            sourceUrl: "https://t.me/Nixcalbaileys",
             showAdAttribution: true,
             renderLargerThumbnail: false         
         },
@@ -330,8 +330,8 @@ await sock.sendMessage(jid, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/otaxbaileys",
-                    merchant_url: "https://t.me/otaxbaileys"
+                    url: "https://t.me/Nixcalbaileys",
+                    merchant_url: "https://t.me/Nixcalbaileys"
                 })
             }
         ]
@@ -347,18 +347,18 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "OTAX Baileys",
+        footer: "Nixcal Baileys",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "otaxbaileys.pdf",
+        fileName: "Nixcalbaileys.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         buttons: [
             {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/otaxbaileys",
-                    merchant_url: "https://t.me/otaxbaileys"
+                    url: "https://t.me/Nixcalbaileys",
+                    merchant_url: "https://t.me/Nixcalbaileys"
                 })
             }
         ]
@@ -395,7 +395,7 @@ await sock.sendMessage(jid, {
 
 ---
 
-## Why Choose OTAX Baileys?
+## Why Choose Nixcal Baileys?
 
 Because this library offers high stability, full features, and an actively improved pairing process. It is ideal for developers aiming to create professional and secure WhatsApp automation solutions. Support for the latest WhatsApp features ensures compatibility with platform updates.
 
@@ -414,9 +414,9 @@ Because this library offers high stability, full features, and an actively impro
 
 ---
 
-For complete documentation, installation guides, and implementation examples, please visit the official repository and community forums. We continually update and improve OTAX Baileys to meet the needs of developers and users of modern WhatsApp automation solutions.
+For complete documentation, installation guides, and implementation examples, please visit the official repository and community forums. We continually update and improve Nixcal Baileys to meet the needs of developers and users of modern WhatsApp automation solutions.
 
-**Thank you for choosing OTAX Baileys as your WhatsApp automation solution!**
+**Thank you for choosing Nixcal Baileys as your WhatsApp automation solution!**
 
 ---
 
@@ -434,10 +434,10 @@ Thanks to the following awesome contributors who help improve this project 💖
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/OtaXxx17">
-        <img src="https://files.catbox.moe/dgnw8k.jpg" width="80px;" style="border-radius:50%;" alt="Contributor"/>
+      <a href="https://github.com/DilzTzy999">
+        <img src="https://files.catbox.moe/zclrvw.jpg" width="80px;" style="border-radius:50%;" alt="Contributor"/>
         <br />
-        <sub><b>OTAX</b></sub>
+        <sub><b>Nixcal</b></sub>
       </a>
     </td>
   </tr>
