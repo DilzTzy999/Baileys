@@ -1,16 +1,16 @@
 {
-    "name": "OtaXxx17/Baileys",
+    "name": "Baileys",
     "version": "2.1.7",
-    "description": "WhatsApp Modified By OTAX",
+    "description": "WhatsApp Modified By Nixcal",
     "keywords": [
         "whatsapp-baileys"
     ],
-    "homepage": "https://github.com/OtaXxx17/Baileys",
+    "homepage": "https://github.com/DilzTzy999/Baileys",
     "repository": {
-        "url": "https://github.com/OtaXxx17/Baileys"
+        "url": "https://github.com/DilzTzy999/Baileys"
     },
     "license": "MIT",
-    "author": "Orang Biasa",
+    "author": "×√itsnixcal",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
@@ -101,6 +101,6 @@
         "node": ">=20.0.0"
     }, 
     "bugs": {
-      "url": "https://OtaXxx17/Baileys/issues"
+      "url": "https://Nixcal/Baileys/issues"
     }
 }
